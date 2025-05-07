@@ -33,7 +33,7 @@ function LoginForm() {
                 Password
                 <input type='password' name='password'/>
             </label>
-            <button type="submit">Log In</button>
+            <button type="submit" className={s.button}>Log In</button>
         </form>
     );
 }

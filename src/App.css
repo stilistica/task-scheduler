@@ -1,6 +1,8 @@
-#root {
+.app {
+  max-width: 1020px;
   margin: 0 auto;
   padding: 15px;
-  text-align: center;
+  /*text-align: center;*/
+
 }
 

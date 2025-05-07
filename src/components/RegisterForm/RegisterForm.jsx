@@ -33,7 +33,7 @@ function RegisterForm() {
                 Password
                 <input type='password' name='password'/>
             </label>
-            <button type="submit">Register</button>
+            <button type="submit" className={s.button}>Register</button>
         </form>
     );
 }
