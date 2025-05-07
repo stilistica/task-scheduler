@@ -9,7 +9,7 @@ const tasksSlice = createSlice({
         isLoading: false,
         error: null,
     },
-    extraReducers: builder => {
+    extraReducers: (builder) => {
         builder
             .addCase(fetchTasks.fulfilled, (state, action) => {
                 state.items = action.payload;

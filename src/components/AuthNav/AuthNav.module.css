@@ -9,3 +9,6 @@
 .link.active {
     color: #b038dc;
 }
+.link:hover {
+    color: #61dc38;
+}
